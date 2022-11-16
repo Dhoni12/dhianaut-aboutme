@@ -1,0 +1,163 @@
+
+/*new css*/
+
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: hsl(15, 55%, 49%);
+  --first-color-light: hsl(29, 80%, 70%);
+  --black-color: hsl(29, 100%, 99%);
+  --text-color: hsl(31, 100%, 26%);
+  --body-color: hsl(29, 100%, 99%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font:Inter;
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== CARD ===============*/
+.container {
+  height: 100vh;
+  margin-inline: 1.5rem;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+position: relative;
+width: 350px;
+height: 550px;
+padding: 1.25rem 2rem 3rem;
+border-radius: 1.5rem;
+text-align: center;
+background: #282829;
+border-radius: 30px;
+}
+.back{
+  position: absolute;
+  top: 48px;
+}
+
+h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+
+  position: absolute;
+  width: 122px;
+  height: 29px;
+  left: 30px;
+  top: 98px;
+}
+
+.name{
+  position: absolute;
+width: 109px;
+height: 39px;
+left: 146px;
+top: 195px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+text-align: center;
+color: #FFFFFF;
+}
+
+.about {
+ position: absolute;
+ top: 147px;
+}
+
+.card__profession {
+  color: var(--first-color);
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+}
+p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  text-align: left
+}
+.a {
+  position: absolute;
+  width: 227px;
+  height: 30px;
+  left: 32px;
+  top: 273px;
+}
+.b {
+  position: absolute;
+  width: 143px;
+  height: 15px;
+  left: 32px;
+  top: 326px;
+}
+.c {
+  position: absolute;
+  width: 135px;
+  height: 15px;
+  left: 31px;
+  top: 364px;
+}
+.d{
+  position: absolute;
+  width: 246px;
+  height: 15px;
+  left: 30px;
+  top: 402px;
+}
+.e{
+  position: absolute;
+ width: 176px; 
+ height: 15px;
+ left: 30px;
+ top: 440px;
+}
+.f {
+  position: absolute;
+ width: 215px;
+ height: 15px;
+ left: 30px;
+ top: 478px;
+}
